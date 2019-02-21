@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "azagrotech.com", ".", "{87B51F40-F9B0-4678-999B-1F86E8613340}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/azagrotech.com"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\azagrotech.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\azagrotech.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/azagrotech.com"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\azagrotech.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\azagrotech.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63470"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B51F40-F9B0-4678-999B-1F86E8613340}.Debug|.NET.ActiveCfg = Debug|.NET
+		{87B51F40-F9B0-4678-999B-1F86E8613340}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

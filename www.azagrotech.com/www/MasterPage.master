@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta name="keywords" content="Сельхозтехника в Баку, зернодробилка, мельница, сенорезка, соломорезка, шнек, элеватор, кормомиксер, мешалка, yem qarişdirici, mixer, ot dogruyan, saman dogruyan, saman kəsən, senorez, drobilka, taxil uyudan, şnek, elevator, shnek, kənd təsərüfət texnikasi, kend teserufat texnika">
+  <meta name="description" content="AzAgrotech - единственное конструкторское бюро, самостоятельно занимающееся проектированием и созданием сельхозтехники в Азербайджане">
+    <title>AzAgrotech</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body
+        {
+        background: url(img/bckg.jpg);    
+        }
+        .style1
+        {
+            height: 14px;
+        }
+
+        .style4
+        {
+            width: 6%;
+            height: 38px;
+            padding-top:15px;
+            padding-right:5px;
+        }
+        .style5
+        {
+           padding-top:10px;
+            height: 38px;
+            width: 75%;
+        }
+        
+        .style6
+        {
+            height: 25px;
+        }
+        .style7
+        {
+            display:block;
+            padding:5px;
+            padding-left:10px;
+            color:#fff;
+            text-decoration:none;
+            background: url(img/button.jpg) no-repeat;
+        }
+    </style>
+
+
+</head>
+<body >
+    <form id="form1" runat="server">
+    <div style="text-align:center;">
+        <table border="0" cellpadding="0" cellspacing="0" width="1020px">
+            <tr>
+                <td colspan="2" class="style1">
+                &nbsp;
+                
+                <object type="application/x-shockwave-flash" width="1300" height="203" 
+                        style="text-align: center"> 
+    <param name="movie" value="img/Site_Banner.swf" /> 
+    <param name="quality" value="high" /> 
+</object>
+                
+                </td>
+            </tr>
+            <tr>
+                <td align="left" valign="top" colspan="2" class="style6">
+                    <asp:HyperLink ID="HyperLinkRu" runat="server">Русский</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLinkAz" runat="server">Azəri</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle" colspan="2">
+                                      
+                    <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+               </td>
+                
+            </tr>
+            <tr>
+                <td valign="top" align="left" class="style4"">
+                    
+                    <asp:LinkButton ID="Sidebar_lb" runat="server"></asp:LinkButton>
+                </td>
+                <td align="left" class="style5">
+                    
+                    <asp:Label ID="Content_lb" runat="server"></asp:Label>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
